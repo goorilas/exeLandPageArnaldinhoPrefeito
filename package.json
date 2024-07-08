@@ -2,7 +2,8 @@
   "name": "ladpage-arnaldinho",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel src/index.html src/style/main.scss src/scripts/main.js",
+    "dev": "parcel src/index.html src/style/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
