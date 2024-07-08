@@ -1,0 +1,16 @@
+{
+  "name": "ladpage-arnaldinho",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel src/index.html src/style/main.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}
